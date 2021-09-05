@@ -6,7 +6,7 @@ margin: 0;
 
 nav ul{list-style: none;}
 nav ul li{display: inline-block;}
-nav ul li a{text-decoration: none; color: white;}
+ a{text-decoration: none; color: white;}
 button{cursor: pointer;}
 
 @font-face{
@@ -24,7 +24,7 @@ button{cursor: pointer;}
 .thin{ font-family: pl, sans-serif;  }
 h1, h2, h3, h4, th, b, strong{ font-family: pb, sans-serif}
 body{ font: 14px  pr, sans-serif;}
-:root{--primary:#D85151;}
+:root{--primary:#D85151; --secondary:#666666;}
 .container{
     margin: auto;
     width: 1200px;
@@ -72,24 +72,27 @@ nav ul li a{
 }
 
 .wrap-2{
-    background-color: #666666;
-    padding: 220px;
+    color: white;
+    background-color: var(--secondary);
+}
+.wrap-2 .video .thin{
+    padding-top: 40px;
+    font-size: 60px;
+}
+.wrap-2 .video a{
+    font-size: 1.2rem;
+    color: white;
+}
+.video{
+    padding: 200px 0;
+}
+.wrap-2 .video button{
+    font-size: 150px;
+    background-color: transparent;
+    border: none;
     color: #fff;
-    font-family: sans-serif;
-
-}
-.wrap-2 .icon{
-    font-size: 8rem;
-    display: inline;
-    
-
-}
-.wrap-2 .heading{
-    font-size: 1.8rem;
-    display: inline-block;
-}
-.wrap-2 .heading p{
-    font-size: 16px;
+    float: left;
+    margin-right: 40px;
 }
 
 
@@ -106,6 +109,14 @@ nav ul li a{
     .container{
         width: 960px;
         text-align: center;
+    }
+    .wrap-2 .video button{
+        float: none;
+        margin-left: 40px;
+    }
+    .wrap-2 .video a{
+        position: relative;
+        top: 20px;
     }
     .col-l-1{width: 8.33%;float: left;padding: 15px 0;min-height: 1px;}
 .col-l-2{width: 16.66%;float: left;padding: 15px 0;min-height: 1px;}
