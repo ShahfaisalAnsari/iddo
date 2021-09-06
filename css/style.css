@@ -115,9 +115,6 @@ nav ul li a{
 .circle{
     margin-left:30px ;
 }
-.wrap-4{
-    /* padding: 20px; */
-}
 .wrap-4 .icons{
     font-size: 80px;
     text-align: center;
@@ -126,6 +123,41 @@ nav ul li a{
 padding: 10px;
 }
 
+.wrap-5 a{
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 5px 15px;
+    border-radius: 10px;
+
+}
+.wrap-5 h1{
+    font-size: 80px;
+    line-height: 0.9;
+    border-bottom: 8px solid #000;
+}
+.wrap-5{
+    background-color: #ebebeb;
+    padding: 50px;
+}
+
+.wrap-5 .project{
+    height: 350px;
+    width: 350px;
+    background:url(/images/project1.jpg)center center /cover no-repeat;
+    margin-top: 10px;
+}
+.detail-box{
+    position: relative;
+    top: 255px;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    display: none;
+}
+.wrap-5 .project:hover .detail-box {
+    display: block;
+
+}
 
 
 
@@ -147,6 +179,10 @@ padding: 10px;
     .wrap-2 .video a{
         position: relative;
         top: 20px;
+    }
+    .wrap-5 .project{
+        width: 300px;
+        height: 300px;
     }
     .col-l-1{width: 8.33%;float: left;padding: 15px 0;min-height: 1px;}
 .col-l-2{width: 16.66%;float: left;padding: 15px 0;min-height: 1px;}
