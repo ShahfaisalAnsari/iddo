@@ -112,9 +112,7 @@ nav ul li a{
 .feature .circle span.fa{ font-size: 36px; vertical-align: middle }
 .feature h3{ font-size: 16px; line-height: 30px}
 .feature p.thin{ font-size: 14px; line-height: 22px}
-.circle{
-    margin-left:30px ;
-}
+
 .wrap-4 .icons{
     font-size: 80px;
     text-align: center;
@@ -261,13 +259,6 @@ padding: 10px;
     .main-pera{
         font-size: 50px;
         width: 100%;
-    }
-    .feature{
-        text-align: center;
-    }
-    .wrap-3 .circle{
-        width: 100%;
-        margin: auto;
     }
     
     .col-t-1{ width: 8.33%;float: left;padding: 15px 0;min-height: 1px;}
