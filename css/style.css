@@ -115,6 +115,16 @@ nav ul li a{
 .circle{
     margin-left:30px ;
 }
+.wrap-4{
+    /* padding: 20px; */
+}
+.wrap-4 .icons{
+    font-size: 80px;
+    text-align: center;
+}
+.wrap-4 .fa{
+padding: 10px;
+}
 
 
 
